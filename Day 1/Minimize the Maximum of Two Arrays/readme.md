@@ -1,0 +1,5 @@
+![image](https://github.com/Ayanabha1/6-Companies-30-Days-Challenge/assets/63809278/6c5ed793-f439-410b-ac6e-4d95a33ba241)
+![image](https://github.com/Ayanabha1/6-Companies-30-Days-Challenge/assets/63809278/f86ecded-d832-4bbe-8389-c443b924f315)
+![image](https://github.com/Ayanabha1/6-Companies-30-Days-Challenge/assets/63809278/22cb362b-2555-4048-b3c3-b388b7dd0128)
+![image](https://github.com/Ayanabha1/6-Companies-30-Days-Challenge/assets/63809278/eaa35c41-7f44-4379-83c2-36c7b9dcc53f)
+![image](https://github.com/Ayanabha1/6-Companies-30-Days-Challenge/assets/63809278/dfb8b132-c62c-46d5-b8f6-2506d7a4942f)
