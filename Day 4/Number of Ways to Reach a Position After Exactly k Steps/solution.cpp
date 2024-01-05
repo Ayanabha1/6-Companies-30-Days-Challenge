@@ -37,6 +37,6 @@ public:
        So basically whatever the position is, add 1000 to it and then store in dp
 
     dp[3001][k]
-    put everything in dp[pos + 1000]
+    put everything in dp[pos + 1000][k]
 */
 
