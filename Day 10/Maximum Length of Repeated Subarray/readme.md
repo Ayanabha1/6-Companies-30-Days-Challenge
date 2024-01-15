@@ -1,19 +1,2 @@
-class Solution {
-public:
-    int findLength(vector<int>& nums1, vector<int>& nums2) {
-        int m = nums1.size() , n = nums2.size() , ans = 0;
-        vector<vector<int>> dp(m+1,vector<int>(n+1,0));
-        for(int i = 1 ; i <= m ; i++)
-        {
-            for(int j = 1 ; j <= n ; j++)
-            {
-                if(nums1[i - 1] == nums2[j - 1])
-                {
-                    dp[i][j] = 1 + dp[i-1][j-1];
-                }
-                ans = max(ans,dp[i][j]);
-            }
-        }
-        return ans;
-    }
-};
+![image](https://github.com/Ayanabha1/6-Companies-30-Days-Challenge/assets/63809278/e2096c83-9c2e-46e6-8407-5fdc4839919d)
+![image](https://github.com/Ayanabha1/6-Companies-30-Days-Challenge/assets/63809278/96e7efb9-fe0b-4d3c-ba5f-40444be4fae0)
