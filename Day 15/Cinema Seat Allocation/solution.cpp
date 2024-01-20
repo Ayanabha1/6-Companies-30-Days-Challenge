@@ -18,20 +18,10 @@ public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& arr) {
         int ans = 0;
         sort(arr.begin(),arr.end());
-
-        
-        // Case: above this row , every seat is vacant
-        int firstRow = arr[0][0];
-        int topEmptyRows = firstRow - 1;
-        ans += (topEmptyRows * 2);
+        int bookedRows = 0;
 
         for(int i = 0 ; i < arr.size() ; i++)
         {
-            if(i > 0)
-            {
-                int gap = arr[i][0] - arr[i-1][0] - 1;
-                ans += (gap * 2);
-            }
             vector<int> seats(10,0); // seats[i] = 0 -> means ith seat is vacant
             int j = i;
             while(j < arr.size() && arr[i][0] == arr[j][0])
@@ -52,14 +42,11 @@ public:
             {
                 ans += 1;
             }
-            
-        }
+            bookedRows++;
+        }   
 
-        // Case: below this row , every seat is vacant
-        int lastRow = arr[arr.size()-1][0];
-        int lastEmptyRows = n - lastRow;
-        ans += (lastEmptyRows * 2);
-
+        int emptyRows = n - bookedRows;
+        ans += (emptyRows * 2);
 
         return ans;
     }
